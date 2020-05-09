@@ -3,6 +3,11 @@
 
 $tableWidth: 300px;
 $listWidth: 400px;
+$backgrounColor: lightblue;
+
+body {
+  background-color: $backgrounColor;
+}
 
 .list-group {
   margin: 20px;
