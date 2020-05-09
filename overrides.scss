@@ -1,7 +1,13 @@
 ---
 ---
 
-.list-group, .table{
+.list-group {
   margin: 10px;
   max-width: 400px;
+}
+
+.table{
+  margin: 10px;
+  max-width: 400px;
+  text-align: center;
 }
