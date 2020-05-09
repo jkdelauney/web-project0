@@ -1,13 +1,16 @@
 ---
 ---
 
+$maxTableWidth: 400px;
+$maxListWidth: 400px;
+
 .list-group {
   margin: 10px;
-  max-width: 400px;
+  max-width: $maxListWidth;
 }
 
-.table{
+.table {
   margin: 10px;
-  max-width: 400px;
+  max-width: $maxTableWidth;
   text-align: center;
 }
