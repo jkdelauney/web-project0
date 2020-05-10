@@ -19,3 +19,13 @@ body {
   max-width: $tableWidth;
   text-align: center;
 }
+
+.footer .container {
+  width: auto;
+  max-width: none;
+  padding: 0 15px;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
