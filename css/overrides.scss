@@ -4,10 +4,17 @@
 $tableWidth: 300px;
 $listWidth: 400px;
 $backgroundColor: lightblue;
+$headerBackgroundColor: #f5f5f5;
 $footerBackgroundColor: #f5f5f5;
+$borderColor: #c0c0c0;
 
 body {
   background-color: $backgroundColor;
+}
+
+nav {
+  background-color: $headerBackgroundColor;
+  border-bottom: 1px solid $borderColor;
 }
 
 .list-group {
@@ -29,7 +36,7 @@ body {
 
 .footer {
   background-color: $footerBackgroundColor;
-  border-top: 1px solid #c0c0c0;
+  border-top: 1px solid $borderColor;
   position: relative;
   left: 0;
   bottom: 0;
