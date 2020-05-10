@@ -12,9 +12,10 @@ body {
   background-color: $backgroundColor;
 }
 
-nav {
+.nav {
   background-color: $headerBackgroundColor;
   border-bottom: 1px solid $borderColor;
+  margin-bottom: 10px;
 }
 
 .list-group {
