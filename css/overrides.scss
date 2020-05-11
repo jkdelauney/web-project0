@@ -7,14 +7,17 @@ $backgroundColor: lightblue;
 $headerBackgroundColor: #f5f5f5;
 $footerBackgroundColor: #f5f5f5;
 $borderColor: #c0c0c0;
+$selectionColor: gray;
+$selectionBackgroundColor: purple;
+$hoverColor: black;
 
 body {
   background-color: $backgroundColor;
 }
 
 ::selection {
-  color: black;
-  background: purple;
+  color: $selectionColor;
+  background: $selectionBackgroundColor;
 }
 
 .nav {
@@ -23,7 +26,7 @@ body {
 }
 
 a:hover {
-  color: black;
+  color: $hoverColor;
 }
 
 @media screen and (max-width: 600px) {
@@ -32,25 +35,24 @@ a:hover {
   }
 }
 
-.list-group {
+// Included to meet project requirements
+%margin_20 {
   margin: 20px;
+}
+
+.list-group {
+  @extend %margin_20;
   max-width: $listWidth;
 }
 
 #first-li {
-  text-decoration: underline;	
+  text-decoration: underline;
 }
 
 .table {
-  margin: 20px;
+  @extend %margin_20;
   max-width: $tableWidth;
   text-align: center;
-}
-
-.footer .container {
-  width: auto;
-  max-width: none;
-  padding: 0 15px;
 }
 
 .footer {
@@ -60,4 +62,9 @@ a:hover {
   left: 0;
   bottom: 0;
   width: 100%;
+  .container {
+    width: auto;
+    max-width: none;
+    padding: 0 15px;
+  }
 }
