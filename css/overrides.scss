@@ -12,6 +12,11 @@ body {
   background-color: $backgroundColor;
 }
 
+::selection {
+  color: red;
+  background: yellow;
+}
+
 .nav {
   background-color: $headerBackgroundColor;
   border-bottom: 1px solid $borderColor;
