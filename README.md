@@ -24,7 +24,7 @@ I've done most of this before but it's been ages, so it'll be a good refresher.
 
 As this project did not require any actual functionality I did a simple write up using an old personal website as inspiration.
 
-Each page contains a `<nav>` and `<footer>`. The nav contains the links to each page and the active page's link has the bootstrap disabled class applied. A :hover selector is used to set the color of hovered links to black.
+Each page contains a `<nav>` and `<footer>`. The nav contains the links to each page and the active page's link has the bootstrap disabled class applied. A `:hover` selector is used to set the color of hovered links to black.
 
 The footer is pinned to the bottom of the page and is hidden using bootstraps built-in functionality when the viewport is reduced in width to around the size of a mobile phone. The footer also contains a link which is itself an image.
 
@@ -42,7 +42,7 @@ The About page includes ai bootstrap styled table and text in it's jumbotron whi
 
 #### projects.html
 
-The Projects page also uses col classes to layout text along side an unordered list styled using bootstrap. The first item in this list has an underline text-decoration applied using an id selector.
+The Projects page also uses col classes to layout text along side an unordered list styled using bootstrap. The first item in this list has an underline text-decoration applied using an id selector of `#first-li`.
 
 #### plans.html
 
