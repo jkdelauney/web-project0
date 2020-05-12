@@ -1,3 +1,4 @@
+#!/bin/zsh
 grep -v -e "^---$" overrides.scss > temp.scss
 sass temp.scss overrides.css
 rm temp.scss
